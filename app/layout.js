@@ -1,6 +1,5 @@
 import "./globals.css";
 import "./assets/css/style.css";
-import Script from "next/script";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -24,7 +23,6 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
-        {/* <Script src="/assets/js/script.js" strategy="afterInteractive" /> */}
       </body>
     </html>
   );

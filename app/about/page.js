@@ -14,7 +14,7 @@ export default function AboutPage() {
               <h2>About Sterling & Associates</h2>
               <p>Excellence in legal representation since 1998</p>
             </div>
-            {/* <p>Founded on the principles of integrity, excellence, and client advocacy, Sterling & Associates has grown to become one of the region's most respected law firms. Our team combines decades of experience with innovative legal strategies to achieve the best possible outcomes for our clients.</p> */}
+            <p>Founded on the principles of integrity, excellence, and client advocacy, Sterling & Associates has grown to become one of the regions most respected law firms. Our team combines decades of experience with innovative legal strategies to achieve the best possible outcomes for our clients.</p>
             <div className="about-features">
               <div className="feature">
                 <i className="fas fa-check-circle"></i>
@@ -39,7 +39,7 @@ export default function AboutPage() {
           </div>
           <div className="about-image">
             <Image
-              src="/public/assets/images/about.jpg"
+              src="/assets/image/mizanur_rahman.jpg"
               width={500}
               height={600}
               alt="Professional law office"
