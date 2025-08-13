@@ -2,6 +2,7 @@ import "./globals.css";
 import "./assets/css/style.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Script from "next/script";
 
 export const metadata = {
   title: "Create Next App",
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+       <Script src="/assets/js/script.js" strategy="afterInteractive" />
       </body>
     </html>
   );
